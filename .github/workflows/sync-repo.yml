@@ -20,7 +20,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync TNanko's Scripts Repo
+      - name: sync Sunert-scripts
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
